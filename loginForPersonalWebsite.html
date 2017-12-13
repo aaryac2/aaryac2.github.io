@@ -1,0 +1,74 @@
+<!DOCTYPE html lang="en">
+<html>
+
+	<head>
+
+		<link rel = "stylesheet" type="text/css" href="gloriousv2.css"/>
+
+
+		<title>Login</title>
+	</head>
+
+
+	<h1 align = "center" class="login" >Login</h1>
+
+	<body class = "body_ref"  align = "center">
+
+		<br> <br>
+
+		<caption>Please enter a password</caption>
+
+		<br> <br> <br>
+
+		<table class = "circleLogin" border = "3" align = "center" cellpadding = "200" cellspacing = "5"  >
+			<tr>
+
+				<th>
+					<form name="PasswordField" onsubmit="isValid()" method = "post">
+						<input type="password" id="password" name="password">
+						<input class = "chk" type="button" value="SUBMIT" onclick="isValid();">
+					</form>
+				</th>
+			</tr>
+		</table>
+
+  		<div align = "center" id = 'statementTest'>
+
+   		</div>
+
+	</body>
+<php>
+
+</php>
+
+
+</html>
+
+
+
+<script>
+
+function isValid()
+{
+  var password = document.getElementById('password').value;
+  if (password == "")
+{
+  window.location.href = 'landingv3.html';
+}
+  else if(password == "test")
+{
+  window.location.href = 'landingv3.html';
+}
+else if(password == "alpha")
+{
+  window.location.href = 'landingv3.html';
+}
+  else
+{
+  document.getElementById('statementTest').innerHTML = "incorrect";
+}
+
+}
+
+
+</script>
