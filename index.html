@@ -24,8 +24,9 @@
 			<tr>
 
 				<th>
-					<form name="PasswordField" onsubmit="isValid()" method = "post">
-						<input type="password" id="password" name="password" onkeypress="isValid();">
+					<form name="PasswordField" onsubmit="isValid()" method = "post" onkeypress="isValid();">
+						<input type="password" id="password" name="password">
+						<input class = "chk" type="button" value="SUBMIT" onclick="isValid();">
 						<input type = "submit" onclick="isValid();">
 					</form>
 				</th>
