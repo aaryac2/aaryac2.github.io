@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+
+.body_ref  {
+margin: 0 auto;
+background-color: black;
+color: white;
+font-family : "Arial Narrow";
+text-align: "center";
+}
+
+.password   {
+color : gray;
+font-family: "Arial Narrow";
+display: inline-block;
+width: 175px;
+height:50px;
+}
+
+.h1   {
+text-color : white;
+font-size: 22px;
+}
+
+h3:hover {
+ color : #ccebff;
+}
+
+.chk   {
+color: #00FF00;
+background-color: black;
+border-radius: 4px;
+border: none;
+display:inline-block;
+font-size: 13px;
+}
+
+.chk:hover   {
+color:  #e6ffee;
+
+}
+
+
+.incorrect   {
+color : white;
+font-family: "Arial Narrow";
+font-size: 10px;
+}
+
+.table {
+border-radius: 25px;
+border-color: white;
+align = "center";
+height: 100px;
+width: 90px;
+margin-bottom : 50px;
+}
+
+.table:hover {
+   color: #007a99;
+}
+
+
+a    {
+  color:yellow;
+  background-color:transparent;
+  text-decoration:none
+     }
+
+a:hover {
+   color: #cc9900;
+        }
+
+a:active {
+  color : #ffffcc;
+}
+
+.master {
+  border-color: none;
+}
+
+.tableTest {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest:hover {
+ border-color:  #333300;
+}
+
+.tableTest2 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest2:hover {
+ border-color: blue;
+}
+
+.tableTest3 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest3:hover {
+ border-color: #00ff00;
+}
+
+.tableTest4 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest4:hover {
+ border-color: #ff0000;
+}
+
+.tableTest5 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest5:hover {
+ border-color: #000000;
+}
+.tableTest6 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest6:hover {
+ border-color: #333333;
+}
+
+.tableTest7 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest7:hover {
+ border-color: #206500;
+}
+
+.tableTest8 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest8:hover {
+ border-color: #994500;
+}
+
+.tableTest9 {
+border-radius: 100px;
+border-color : white;
+margin-bottom : 25px;
+}
+
+.tableTest9:hover {
+ border-color: #350099;
+}
+
+.circleLogin {
+  border-radius: 100000px;
+  border-color: gray;
+}
